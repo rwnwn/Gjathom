@@ -14,7 +14,7 @@ client.on('message', message => {
      if (message.content === (adminprefix + "leave")) {
     message.guild.leave();
   } else
-  if (message.content.startsWith(adminprefix + 'jgjggj')) {
+  if (message.content.startsWith(adminprefix + 'wt')) {
   client.user.setActivity(argresult, {type:'WATCHING'});
       message.channel.send(`**✅   ${argresult}**`)
   } else
